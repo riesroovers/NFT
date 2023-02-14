@@ -1,0 +1,48 @@
+@import "/variables.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0C192C;
+  padding: 60px 24px 60px 24px;
+}
+
+.cardMain {
+  background-color: #15273F;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.equilibriumImage img {
+  border-radius: 16px;
+}
+
+.cardTitle {
+  color: #F9FFFF;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cardPhrase {
+  color: #F9FFFF;
+  font-size: 14px;
+}
+
+.cardprice {
+  color: #05FAF8;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.cardTimer {
+  color: #8BAAD8;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
