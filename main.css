@@ -6,6 +6,10 @@
 }
 
 /* VARIABLES */
+.containerFlex {
+  display: flex;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -28,11 +32,13 @@ body {
   color: #F9FFFF;
   font-weight: bold;
   font-size: 20px;
+  margin: 30px 0px 22px 0px;
 }
 
 .cardPhrase {
-  color: #F9FFFF;
-  font-size: 14px;
+  color: #8BAAD8;
+  font-size: 16px;
+  line-height: 2;
 }
 
 .cardprice {
