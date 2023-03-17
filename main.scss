@@ -6,15 +6,9 @@
 }
 
 /* IMPORTS */
-@import "/variables.css";
-@import "/fonts.css";
+@import 'fonts.scss';
+@import 'variables.scss';
 
-/* VARIABLES */
-$dark-blue: #0C192C;
-$blue: #15273F;
-$light-blue: #8BAAD8;
-$white: #F9FFFF;
-$cyaan: #05FAF8;
 
 .containerFlex{
   display: flex;
@@ -26,7 +20,7 @@ body{
   flex-direction: column;
   align-items: center;
   background-color: $dark-blue;
-  padding: 60px 24px 60px 24px;
+  padding: 160px 24px 60px 24px;
 }
 
 .cardMain{
@@ -57,7 +51,7 @@ body{
 
 .cardPhrase{
   color: $light-blue;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 24px;
@@ -86,12 +80,14 @@ body{
   align-items: center;
 
   .creatorImage{
+
     img{
       border-radius: 16px;
       width: 33px;
       border:  solid 1px white;
-      margin-right: 16px;
+      margin: 5px 16px 0px 0px;
     }
+
   }
 
   .creatorText{
@@ -102,8 +98,23 @@ body{
   .creatorName{
     color: white;
   }
+
 }
 
-@media (max-width: 480px)  {
-  
+.ethIcon{
+  padding: 2px 5px;
+}
+
+.cardprice{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.clockIcon{
+
+  img{
+    height: 22px;
+    margin: 3px 5px;
+  }
+
 }
