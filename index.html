@@ -3,49 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet/less" type="text/css" href="styles.less">
-
   <title>Frontend Mentor | NFT preview card component</title>
-
 </head>
 <body>
-  <div class="cardMain">
-    <div class="equilibriumImage">
-      <img src="/images/image-equilibrium.jpg" alt="Equilibrium NFT" />
-    </div>
-    <div class="cardTitle">Equilibrium #3429</div>
-  
-    <div class="cardPhrase">Our Equilibrium collection promotes balance and calm.</div>
-    <div class="cardStats containerFlex">
-
-      <div class="containerFlex">
-        <div class="ethIcon">
-          <img src="/images/icon-ethereum.svg" alt="Ethereum Icon" />
+  <div class="card">
+    <header  role="banner">
+      <div class="equilibriumImage">
+        <img src="/images/image-equilibrium.jpg" alt="Equilibrium NFT" />
+      </div>
+    </header>
+    <main role="main">
+      <aside>
+        <div class="cardTitle">Equilibrium #3429</div>
+        <div class="cardPhrase">Our Equilibrium collection promotes balance and calm.</div>
+        <div class="cardStats containerFlex">
+          <div class="containerFlex" role="contentinfo">
+            <div class="ethIcon">
+              <img src="/images/icon-ethereum.svg" alt="Ethereum Icon" />
+            </div>
+            <div class="cardprice">0.041 ETH</div>
+          </div>
+          <div class="clockIcon containerFlex">
+            <img src="/images/icon-clock.svg" alt="clockIcon"/>
+            <div class="cardTimer">3 days left</div>
+          </div>
         </div>
-        <div class="cardprice">0.041 ETH</div>
+      </aside>
+    </main>
+    <footer>
+      <div class="creatorContainer containerFlex">
+        <div class="creatorImage">
+          <img src="/images/image-avatar.png" alt="Jules Wyvern" />
+        </div>
+        <div class="creatorText">
+          <p>Creation of</p>
+        </div>
+        <div class="creatorName">
+          <p>Jules Wyvern</p>
+        </div>
       </div>
-    
-      <div class="clockIcon containerFlex">
-        <img src="/images/icon-clock.svg" alt="clockIcon" />
-        <div class="cardTimer">3 days left</div>
-      </div>
-    </div>
-    <div class="creatorContainer containerFlex">
-      <div class="creatorImage">
-        <img src="/images/image-avatar.png" alt="Jules Wyvern" />
-      </div>
-      <div class="creatorText">
-        <p>Creation of</p>
-    </div>
-    <div class="creatorName">
-      <p>Jules Wyvern</p>
-    </div>
-    </div>
-    </div>
-    
-  
+    </footer>
+  </div>
 </body>
 </html>
