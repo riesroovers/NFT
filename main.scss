@@ -9,21 +9,24 @@
 @import 'fonts.scss';
 @import 'variables.scss';
 
-
+// reusable flex class
 .containerFlex{
   display: flex;
 }
 
+// General style for card
 body{
   font-family: "Outfit";
   font-size: 16px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: $dark-blue;
-  padding: 160px 24px 60px 24px;
 }
 
+// Card speficic styling
 .card{
   background-color: $blue;
   padding: 24px;
@@ -33,6 +36,7 @@ body{
   height: auto;
 }
 
+// Main card image
 .equilibriumImage{
 
   img{
@@ -43,6 +47,7 @@ body{
   
 }
 
+// Main card Title
 .cardTitle{
   color: $white;
   font-weight: bold;
@@ -50,6 +55,7 @@ body{
   margin: 30px 0px 22px 0px;
 }
 
+// description card
 .cardPhrase{
   color: $light-blue;
   font-size: 18px;
@@ -58,12 +64,14 @@ body{
   margin-bottom: 24px;
 }
 
+// Eth price and remaining days
 .cardStats{
   justify-content: space-between;
   padding-bottom: 24px;
-  border-bottom: solid 0.75px $light-blue;
+  border-bottom: 0.75px solid $light-blue;
 }
 
+// Eth price
 .cardprice{
   color: $cyaan;
   font-weight: bold;
@@ -71,17 +79,19 @@ body{
   text-transform: uppercase;
 }
 
+// Eth remaining days
 .cardTimer{
   color: $light-blue;
   font-size: 20px;
 }
 
+// Container of image of creator 
 .creatorContainer{
   margin-top: 16px;
   align-items: center;
 
   .creatorImage{
-
+// image of creator
     img{
       border-radius: 16px;
       width: 33px;
@@ -91,11 +101,13 @@ body{
 
   }
 
+// footer phrase
   .creatorText{
     color: $light-blue;
     margin-right: 4PX;
   }
 
+  // footer name
   .creatorName{
     color: white;
   }
