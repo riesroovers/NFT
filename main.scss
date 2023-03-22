@@ -131,3 +131,10 @@ body{
   }
 
 }
+.overlay{
+  position: fixed;
+  //display: none;
+  width: 100%;
+  height: 100%;
+  background-color:($cyaan,05);
+}

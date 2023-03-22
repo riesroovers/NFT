@@ -103,4 +103,11 @@ body {
 .clockIcon img {
   height: 22px;
   margin: 3px 5px;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #05FAF8, 5;
 }/*# sourceMappingURL=main.css.map */
