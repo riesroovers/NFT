@@ -34,10 +34,40 @@ body {
   height: auto;
 }
 
+.equilibriumImage {
+  position: relative;
+}
 .equilibriumImage img {
   border-radius: 16px;
   width: 100%;
   height: auto;
+}
+.equilibriumImage .overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(5, 250, 248, 0.5);
+  border-radius: 14px;
+  opacity: 0;
+  transition: 0.5s ease;
+  width: 100%;
+  height: 98.5%;
+  bottom: 5px;
+}
+.equilibriumImage .overlay .IconView {
+  width: 50px;
+  transition: 1s ease;
+  opacity: 0;
+}
+
+.equilibriumImage:hover .overlay {
+  opacity: 1;
+}
+.equilibriumImage:hover .overlay .IconView {
+  width: 50px;
+  transition: 1s ease;
+  opacity: 1;
 }
 
 .cardTitle {
@@ -103,11 +133,4 @@ body {
 .clockIcon img {
   height: 22px;
   margin: 3px 5px;
-}
-
-.overlay {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: #05FAF8, 5;
 }/*# sourceMappingURL=main.css.map */
