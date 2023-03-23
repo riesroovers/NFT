@@ -71,23 +71,13 @@ body{
 
 }
 
-.equilibriumImage:hover .overlay {
-  opacity: 1;
-
-  .IconView{
-    width: 50px;
-    transition: 1s ease;
-    opacity: 1;
-  }
-
-}
-
 // Main card Title
 .cardTitle{
   color: $white;
   font-weight: bold;
   font-size: 20px;
   margin: 30px 0px 22px 0px;
+  transition: .5s ease;
 }
 
 // description card
@@ -165,4 +155,21 @@ body{
     margin: 3px 5px;
   }
 
+}
+
+.transitionOverlay:hover .overlay {
+  opacity: 1;
+
+  .IconView{
+    opacity: 1;
+  }
+
+}
+
+.cardTitle:hover{
+    color: $cyaan;
+}
+
+.creatorName:hover{
+  color: $cyaan;
 }

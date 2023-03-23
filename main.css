@@ -61,20 +61,12 @@ body {
   opacity: 0;
 }
 
-.equilibriumImage:hover .overlay {
-  opacity: 1;
-}
-.equilibriumImage:hover .overlay .IconView {
-  width: 50px;
-  transition: 1s ease;
-  opacity: 1;
-}
-
 .cardTitle {
   color: #F9FFFF;
   font-weight: bold;
   font-size: 20px;
   margin: 30px 0px 22px 0px;
+  transition: 0.5s ease;
 }
 
 .cardPhrase {
@@ -133,4 +125,19 @@ body {
 .clockIcon img {
   height: 22px;
   margin: 3px 5px;
+}
+
+.transitionOverlay:hover .overlay {
+  opacity: 1;
+}
+.transitionOverlay:hover .overlay .IconView {
+  opacity: 1;
+}
+
+.cardTitle:hover {
+  color: #05FAF8;
+}
+
+.creatorName:hover {
+  color: #05FAF8;
 }/*# sourceMappingURL=main.css.map */
