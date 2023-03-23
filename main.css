@@ -136,14 +136,10 @@ body {
   opacity: 1;
 }
 
-.cardTitle:hover {
+.transitionOverlay:hover .cardTitle {
   color: #05FAF8;
 }
 
-.creatorName:hover {
-  color: #05FAF8;
-}
-
-.transitionOverlay:hover .cardTitle .creatorName {
+.transitionOverlay:hover .creatorName {
   color: #05FAF8;
 }/*# sourceMappingURL=main.css.map */

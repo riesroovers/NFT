@@ -170,15 +170,10 @@ box-shadow: 17px 18px 45px -12px rgba(0,0,0,0.75);
 
 }
 
-.cardTitle:hover{
-  color: $cyaan;
+.transitionOverlay:hover .cardTitle{
+    color: $cyaan;
 }
 
-.creatorName:hover{
-  color: $cyaan;
-}
-
-// try but failed, hover on image and cardtitle and creatorname colors $cyaan
-.transitionOverlay:hover .cardTitle .creatorName{
+.transitionOverlay:hover .creatorName{
   color: $cyaan;
 }
