@@ -6,8 +6,8 @@
 }
 
 /* IMPORTS */
-@import 'fonts.scss';
-@import 'variables.scss';
+@import './fonts.scss';
+@import './variables.scss';
 
 // reusable flex class
 .containerFlex{
@@ -34,9 +34,7 @@ body{
   width: 100%;
   max-width: 350px;
   height: auto;
-  -webkit-box-shadow: 17px 18px 45px -12px rgba(0,0,0,0.75);
--moz-box-shadow: 17px 18px 45px -12px rgba(0,0,0,0.75);
-box-shadow: 17px 18px 45px -12px rgba(0,0,0,0.75);
+  box-shadow: 17px 18px 45px -12px rgba(0,0,0,0.75);
 }
 
 // Main card image
